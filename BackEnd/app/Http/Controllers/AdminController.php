@@ -213,7 +213,7 @@ class AdminController extends Controller
          } else return response()->json(["isSuccess" => "False", "reason" => "Member not found"]);
      }
 
-     //App管理
+    //App管理
     public function appManage()
     {
         return Apps::where('verify', '=', 1)->select('id', 'appName', 'summary', 'device', 'permission')
