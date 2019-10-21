@@ -59,11 +59,11 @@ export default {
       icon: "icon-star"
     },
 
-    {
-      name: "詳細頁面測試",
-      url: "/managers/appdetail",
-      icon: "icon-star"
-    },
+    // {
+    //   name: "詳細頁面測試",
+    //   url: "/managers/appdetail",
+    //   icon: "icon-star"
+    // },
 
     {
       title: true,
